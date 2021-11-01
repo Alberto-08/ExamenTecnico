@@ -1,0 +1,52 @@
+body {
+    margin: center;
+    padding: center;
+    font-size: 15px;
+}
+
+div {
+    border: 1px solid black;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 5%;
+    float: left
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+#buscar {
+    margin: 10px;
+}
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+  
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 62.5%;
+}
+  
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+  
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--dark-cyan);
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+  
